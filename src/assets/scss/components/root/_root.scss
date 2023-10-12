@@ -1,0 +1,37 @@
+.container {
+   min-height: 100vh;
+   display: grid;
+   gap: 10px;
+   max-width: 1500px;
+   margin: 0 auto;
+   // padding: 0 10px;
+   
+   grid-template:
+       [start] 'header' minmax(100px, auto) [row2]
+       [row2] 'main' 1fr [row3]
+       [row3] 'footer' minmax(100px, auto) [end] / 1fr;
+
+   .header {
+      grid-area: header;
+   }
+
+   .main {
+      display: grid;
+      grid-area: main;
+      
+      justify-content: center;
+      align-items: center;
+      
+      padding: 10px;
+      border: 1px solid black;
+      
+      // &__error{}
+
+      // &__home{}
+
+   }
+
+   .footer{
+      grid-area: footer;
+   }
+}
