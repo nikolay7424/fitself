@@ -20,6 +20,7 @@ function CalcInput({
             button.classList.remove("btn-active")
         })
         e.target.classList.add("btn-active")
+
         calculateCalorieIntake()
     }
     function handleRangeInput(e) {
