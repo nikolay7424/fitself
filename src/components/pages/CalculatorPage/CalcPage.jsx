@@ -46,7 +46,7 @@ export default function CalcPage() {
     const [inputAgeValue, setInputAgeValue] = useState(50)
     const [inputHeightValue, setInputHeightValue] = useState(150)
     const [inputWeightValue, setInputWeightValue] = useState(80)
-    const [inputFatValue, setInputFatValue] = useState(1.1)
+    const [inputFatValue, setInputFatValue] = useState(1.2)
     const [inputActivityValue, setInputActivityValue] = useState(1)
 
     //  bmi = inputWeightValue / (inputHeightValue/100 * inputHeightValue/100)

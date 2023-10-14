@@ -128,7 +128,7 @@ function CalcInput({
                                                 onClick={(e) =>
                                                     handleRadioInput(e)
                                                 }
-                                                data-value="1.1"
+                                                data-value="1.3"
                                                 src="../../../src/assets/img/fat/1.svg"
                                             />
                                         </div>
@@ -137,7 +137,7 @@ function CalcInput({
                                                 onClick={(e) =>
                                                     handleRadioInput(e)
                                                 }
-                                                data-value="1.15"
+                                                data-value="1.25"
                                                 src="../../../src/assets/img/fat/2.svg"
                                             />
                                         </div>
@@ -155,7 +155,7 @@ function CalcInput({
                                                 onClick={(e) =>
                                                     handleRadioInput(e)
                                                 }
-                                                data-value="1.25"
+                                                data-value="1.15"
                                                 src="../../../src/assets/img/fat/4.svg"
                                             />
                                         </div>
@@ -164,7 +164,7 @@ function CalcInput({
                                                 onClick={(e) =>
                                                     handleRadioInput(e)
                                                 }
-                                                data-value="1.3"
+                                                data-value="1.1"
                                                 src="../../../src/assets/img/fat/5.svg"
                                             />
                                         </div>
